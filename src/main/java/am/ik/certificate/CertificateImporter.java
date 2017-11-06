@@ -32,6 +32,7 @@ public class CertificateImporter {
     public void doImport(List<Certificate> certificates) throws GeneralSecurityException, IOException {
         if (imported.get()) {
             log.log(Level.WARNING, "Certificates have already been imported!");
+            return;
         }
         KeyStore trustStore = KeyStore.getInstance(KeyStore.getDefaultType());
         trustStore.load(null); // init empty keystore
