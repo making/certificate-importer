@@ -1,0 +1,2 @@
+org.springframework.context.ApplicationContextInitializer=\
+am.ik.certificate.spring.CertificateImporterApplicationContextInitializer
