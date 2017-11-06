@@ -1,5 +1,12 @@
 # certificate-importer
 
+```xml
+<dependency>
+    <groupId>am.ik.certificate</groupId>
+    <artifactId>certificate-importer</artifactId>
+    <version>0.0.1</version>
+</dependency>
+```
 
 ## Automatic configuration with Spring Boot
 
